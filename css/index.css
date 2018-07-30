@@ -22,6 +22,7 @@
     font-family: MullerMedium;
     src: url(/fonts/MullerMedium.ttf);
 }
+
 @font-face {
     font-family: MullerBlack;
     src: url(/fonts/MullerBlack.ttf);
@@ -54,49 +55,54 @@ header img {
 
 h1 {
     display: flex;
-    font-family: MullerBlack;
+    font-family: "MullerBlack";
     font-size: 65px;
-  color: rgb(255, 255, 255);
-      margin: 0;
+    color: rgb(255, 255, 255);
+    margin: 0;
     margin-top: 60px;
-        width: 60%;
+    width: 60%;
     margin-left: 225px;
-        text-shadow: 4px -4px rgba(51, 102, 204, .7), 0 18px rgba(51, 102, 204, .7);
+    text-shadow: 4px -4px rgba(51, 102, 204, .7), 0 18px rgba(51, 102, 204, .7);
+        letter-spacing: -2px;
 }
+
 h2 {
     display: flex;
-    font-family: MullerExtraBold;
-        color: white;
+    font-family: "MullerExtraBold";
+    color: white;
     font-size: 44px;
     text-align: center;
     width: 61%;
     margin: 0 auto;
+    letter-spacing: 3px;
+    margin-top: -12px;
 }
+
 .contactus {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     border-radius: 25px;
     width: 85px;
     height: 25px;
-     color: rgb(255, 255, 255);
-}
-.contactus a {
-    text-decoration: none;
-    font-size: 10px;
-    font-family: MullerBold;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 2.2;
-}
-
-button {
     align-items: flex-end;
     background-color: inherit;
     border: 1px solid;
 }
 
-.title > h1 > span {
- font-size: 57px;
+.contactus a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "MullerBold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.2;
+}
+
+
+
+.title>h1>span {
+    font-size: 57px;
     font-family: "MullerBlack";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -104,5 +110,68 @@ button {
     text-align: left;
     margin-top: 30px;
     margin-left: 5px;
-        text-shadow: 4px -4px rgba(51, 102, 204, .7), 0 18px rgba(51, 102, 204, .7);
+    text-shadow: 4px -4px rgba(51, 102, 204, .7), 0 18px rgba(51, 102, 204, .7);
+        letter-spacing: 6px;
+}
+
+.main_printer_text {
+    display: flex-root;
+    width: 50%;
+    margin: 0;
+    float: left;
+    font-family: "MullerMedium";
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_printer {
+    display: flex;
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+.main_printer img {
+        margin-top: -40px;
+}
+
+.underlined {
+    width: 60%;
+    margin: 0 auto;
+}
+.inderlined img {
+        width: 100px;
+    height: 5px;
+}
+.main_printer_text p {
+        margin: 0;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.button-buy {
+   background-color: inherit;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 146px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    margin-top: 36px;
+    margin-left: 224px;
+    font-family: MullerBold;
+    font-size: 10px;
+}
+.learn-more {
+   background-color: inherit;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 142px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    margin-top: -36px;
+    margin-left: 388px;
+    font-family: MullerBold;
+    font-size: 10px;
 }
